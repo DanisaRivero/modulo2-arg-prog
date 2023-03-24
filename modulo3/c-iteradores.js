@@ -27,7 +27,17 @@
 
 //! Do-while
 
+// let x = 10;
+// do{
+//   console.log('Mi variable vale ' + x);
+// }while(x > 10);
+
+//! Break
 let x = 10;
-do{
-  console.log('Mi variable vale ' + x);
-}while(x > 10);
+
+for(x; x > 0; x--){
+  if(x==5){
+      break;
+  }
+  console.log(`El valor de x es ${x}`);
+}
